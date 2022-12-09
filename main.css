@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+
+}
+
+
+.battle-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(153, 0, 255);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.battle-box{
+    margin: 25px;
+}
+
+.text-messages{
+    font-size: 45px;
+}
+
+.img-battle{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.btn-attacks{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.btn-attacks:hover{
+    border: 2px solid rgb(153, 0, 255);
+    cursor: pointer;
+    margin: 18px;
+}
